@@ -33,6 +33,9 @@ enquanto K < INDICE faça {
 imprimir(SOMA);
 
 ```
+
+Ao final do processamento, qual será o valor da variável SOMA?
+
 ## 4. Complete a Sequência
 Descubra a lógica e complete o próximo elemento:
 
