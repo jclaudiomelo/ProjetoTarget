@@ -3,7 +3,7 @@ package br.com.Questoes;
 
 import java.util.Scanner;
 
-public class Questao1 {
+public class Questao1{
 
     public static boolean isFibonacci(int n) {
         int a = 5 * n * n + 4;

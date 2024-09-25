@@ -11,7 +11,7 @@ public class Questao2 {
         int contador = contarLetraA(palavra);
 
         if (contador > 0){
-            System.out.println("A Letra (a A) aparece " + contador + "vezes na palavra: " + "( " + palavra + ")");
+            System.out.println("A Letra (a A) aparece " + contador + " vezes na palavra: " + "( " + palavra + " )");
         }else{
             System.out.println("Não foi encontrado a letra (a A) na palavra digitada ");
         }

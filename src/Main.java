@@ -4,6 +4,7 @@ import br.com.Questoes.Questao3;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import java.util.TreeMap;
 
 public class Main {
     public static void main(String[] args) {
@@ -29,8 +30,12 @@ public class Main {
 
                     if (option < 0 || option > 5) {
                         System.out.println("Opção inválida. Digite um número entre 0 e 5.");
+
+
                     }
                 } while (option < 0 || option > 5);
+
+
 
                 switch (option) {
                     case 1:
@@ -64,6 +69,7 @@ public class Main {
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Digite um número válido.");
+                Tempo();
                 scanner.nextLine();
             }
         } while (option != 0);
@@ -73,7 +79,7 @@ public class Main {
 
     public static void Tempo() {
         try {
-            Thread.sleep(1000); //
+            Thread.sleep(1500); //
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
