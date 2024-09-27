@@ -1,10 +1,10 @@
 import br.com.Questoes.Questao1;
 import br.com.Questoes.Questao2;
 import br.com.Questoes.Questao3;
+import br.com.Questoes.Questao4;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import java.util.TreeMap;
 
 public class Main {
     public static void main(String[] args) {
@@ -30,36 +30,32 @@ public class Main {
 
                     if (option < 0 || option > 5) {
                         System.out.println("Opção inválida. Digite um número entre 0 e 5.");
-
-
                     }
                 } while (option < 0 || option > 5);
 
-
-
                 switch (option) {
                     case 1:
-                        Questao1.CalculoFibanacci();
-                        Tempo();
+                        Questao1.calculoFibanacci();
+                        enter(scanner);
                         break;
                     case 2:
-                        Questao2.VerificaLetraA();
-                        Tempo();
+                        Questao2.verificaLetraA();
+                        enter(scanner);
                         System.out.println("_____________________________________________________________");
                         break;
                     case 3:
-                        Questao3.Soma();
-                        Tempo();
+                        Questao3.soma();
+                        enter(scanner);
                         System.out.println("____________________________________________________________");
                         break;
                     case 4:
-                        System.out.println("Questao 4");
-                        Tempo();
+                        Questao4.sequencia();
+                        enter(scanner);
                         System.out.println("____________________________________________________________");
                         break;
                     case 5:
                         System.out.println("Questao 5");
-                        Tempo();
+                        enter(scanner);
                         System.out.println("____________________________________________________________");
                         break;
                     case 0:
@@ -69,7 +65,7 @@ public class Main {
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Digite um número válido.");
-                Tempo();
+                tempo(1);
                 scanner.nextLine();
             }
         } while (option != 0);
@@ -77,11 +73,20 @@ public class Main {
         scanner.close();
     }
 
-    public static void Tempo() {
+    public static void tempo(long seconds) {
         try {
-            Thread.sleep(1500); //
+            Thread.sleep(seconds * 1000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
     }
+    public static void enter(Scanner scanner) {
+        System.out.println("----------------------------------------------------------");
+        System.out.println("Pressione Enter para continuar...");
+        scanner.nextLine();
+        if (scanner.hasNextLine()) {
+            scanner.nextLine();
+        }
+    }
+
 }

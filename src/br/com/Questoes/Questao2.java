@@ -3,7 +3,7 @@ package br.com.Questoes;
 import java.util.Scanner;
 
 public class Questao2 {
-    public static void VerificaLetraA(){
+    public static void verificaLetraA(){
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite uma Palavra ");
 

@@ -16,7 +16,7 @@ public class Questao1{
         return (sqrt * sqrt == num);
     }
 
-    public static void CalculoFibanacci() {
+    public static void calculoFibanacci() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Informe um número para verificar se pertence à sequência de Fibonacci: ");
