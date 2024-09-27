@@ -2,6 +2,7 @@ import br.com.Questoes.Questao1;
 import br.com.Questoes.Questao2;
 import br.com.Questoes.Questao3;
 import br.com.Questoes.Questao4;
+import br.com.Questoes.Questao5;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -54,13 +55,19 @@ public class Main {
                         System.out.println("____________________________________________________________");
                         break;
                     case 5:
-                        System.out.println("Questao 5");
+                        Questao5.perquntaQuestao5();
+                        enter(scanner);
+                        Questao5.respostaQuestao5();
                         enter(scanner);
                         System.out.println("____________________________________________________________");
                         break;
                     case 0:
-                        System.out.println("Saindo...");
                         System.out.println("____________________________________________________________");
+                        System.out.println("Obrigado, Esse teste foi um aprendizado enorme, estou muito orgulhoso do resultado, espero que gostem \n " +
+                                "Aguardo um retorno de voces da Target Sistemas");
+                        System.out.println("____________________________________________________________");
+                        System.out.println("Saindo...");
+
                         break;
                 }
             } catch (InputMismatchException e) {

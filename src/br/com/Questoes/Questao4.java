@@ -1,7 +1,5 @@
 package br.com.Questoes;
 
-import java.util.Arrays;
-
 public class Questao4 {
 
     public static void sequencia() {
