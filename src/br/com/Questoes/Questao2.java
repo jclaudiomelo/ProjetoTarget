@@ -15,8 +15,8 @@ public class Questao2 {
         }else{
             System.out.println("Não foi encontrado a letra (a A) na palavra digitada ");
         }
-
     }
+
     public static int contarLetraA(String string){
         int count = 0;
         for (char c : string.toCharArray()){

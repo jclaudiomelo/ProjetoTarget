@@ -30,8 +30,5 @@ public class Questao1{
             System.out.println("_____________________________________________________________");
             System.out.println("O número " + number + " não pertence à sequência de Fibonacci.");
         }
-
-
-//        scanner.close();
     }
 }

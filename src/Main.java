@@ -18,11 +18,11 @@ public class Main {
                     System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
                     System.out.println("Escolha o numero referente a Questão proposta no Projeto:");
                     System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-                    System.out.println("1 Dado a sequência de Fibonacci");
-                    System.out.println("2 Escreva um programa que verifique, em uma string");
+                    System.out.println("1 Sequência de Fibonacci");
+                    System.out.println("2 Verifica se Contem a letra A na palavra");
                     System.out.println("3 Qual será o valor da variável SOMA");
                     System.out.println("4 Descubra a lógica e complete o próximo elemento");
-                    System.out.println("5 Você está em uma sala com três interruptores");
+                    System.out.println("5 Desafio da sala com três interruptores");
                     System.out.println("Digite 0 para Sair");
                     System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
                     System.out.print("Digite sua escolha: ");
@@ -72,7 +72,6 @@ public class Main {
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Digite um número válido.");
-                tempo(1);
                 scanner.nextLine();
             }
         } while (option != 0);
@@ -80,14 +79,7 @@ public class Main {
         scanner.close();
     }
 
-    public static void tempo(long seconds) {
-        try {
-            Thread.sleep(seconds * 1000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-    }
-    public static void enter(Scanner scanner) {
+     public static void enter(Scanner scanner) {
         System.out.println("----------------------------------------------------------");
         System.out.println("Pressione Enter para continuar...");
         scanner.nextLine();

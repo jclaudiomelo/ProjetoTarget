@@ -18,5 +18,4 @@ public class Questao5 {
                 "Interruptor 2 → Lâmpada acesa.\n" +
                 "Interruptor 3 → Lâmpada apagada e fria.");
     }
-
 }
