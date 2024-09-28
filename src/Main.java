@@ -18,12 +18,12 @@ public class Main {
                     System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
                     System.out.println("Escolha o numero referente a Questão proposta no Projeto:");
                     System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-                    System.out.println("1 Sequência de Fibonacci");
-                    System.out.println("2 Verifica se Contem a letra A na palavra");
-                    System.out.println("3 Qual será o valor da variável SOMA");
-                    System.out.println("4 Descubra a lógica e complete o próximo elemento");
-                    System.out.println("5 Desafio da sala com três interruptores");
-                    System.out.println("Digite 0 para Sair");
+                    System.out.println("1 Sequência de Fibonacci;");
+                    System.out.println("2 Verifica se Contem a letra A na palavra;");
+                    System.out.println("3 Qual será o valor da variável SOMA;");
+                    System.out.println("4 Descubra a lógica e complete o próximo elemento;");
+                    System.out.println("5 Desafio da sala com três interruptores;");
+                    System.out.println("Digite 0 para Sair;");
                     System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
                     System.out.print("Digite sua escolha: ");
 
