@@ -4,6 +4,7 @@ https://targetsistemas.gupy.io/candidates/applications/491357632?cvUpdated=true
 
 ![Menu](https://github.com/jclaudiomelo/ProjetoTarget/blob/main/src/img/menu.png)
 
+## Linguagem utilizada no Projeto   <img align="center" alt="nodejs" height="60" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg"">
 
 # Exercícios de Lógica e Programação
 
